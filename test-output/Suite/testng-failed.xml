@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="e2e(failed)">
+    <classes>
+      <class name="sus.test.stanalone_test2">
+        <methods>
+          <include name="OrderHistoryTest"/>
+          <include name="initilizeDriver"/>
+          <include name="closeBrowser"/>
+          <include name="e2e"/>
+        </methods>
+      </class> <!-- sus.test.stanalone_test2 -->
+    </classes>
+  </test> <!-- e2e(failed) -->
+</suite> <!-- Failed suite [Suite] -->
